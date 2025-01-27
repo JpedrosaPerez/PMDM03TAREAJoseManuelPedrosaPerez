@@ -1,0 +1,24 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/capturedFragment">
+
+    <fragment
+        android:id="@+id/pokedexFragment"
+        android:name="pmdmtarea03.jmpp.PokedexFragment"
+        android:label="Pokédex"
+        tools:layout="@layout/pokedex_fragment" />
+
+    <fragment
+        android:id="@+id/capturedFragment"
+        android:name="pmdmtarea03.jmpp.CapturadosFragment"
+        android:label="Pokémon Capturados"
+        tools:layout="@layout/captured_fragment" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="pmdmtarea03.jmpp.SettingsFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/settings_fragment" />
+</navigation>
+
